@@ -1,0 +1,65 @@
+{
+  "name": "eslint-config-zqlian",
+  "description": "JavaScript vue Style - ESLint vue Config",
+  "version": "0.1.0",
+  "author": "yun.wu <wuyun@zqlian.com>",
+  "bugs": {
+    "url": "https://github.com/zqlian-web/eslint-config-zqlian/issues"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "tape": "^4.8.0"
+  },
+  "homepage": "https://github.com/zqlian-web/eslint-config-zqlian",
+  "keywords": [
+    "JavaScript vue Style",
+    "check",
+    "checker",
+    "code",
+    "code checker",
+    "code linter",
+    "code vue",
+    "code style",
+    "code template",
+    "enforce",
+    "eslint",
+    "eslint vue",
+    "eslint template",
+    "eslint config",
+    "eslintconfig",
+    "hint",
+    "jscs",
+    "jshint",
+    "lint",
+    "policy",
+    "quality",
+    "simple",
+    "standard",
+    "standard style",
+    "style",
+    "style checker",
+    "style linter",
+    "verify"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">=6.2.2",
+    "eslint-plugin-import": ">=2.18.0",
+    "eslint-plugin-node": ">=9.1.0",
+    "eslint-plugin-promise": ">=4.2.1",
+    "eslint-plugin-standard": ">=4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zqlian-web/eslint-config-zqlian.git"
+  },
+  "scripts": {
+    "lint": "eslint . --config=eslintrc.json",
+    "test": "npm run lint && tape test/*.js"
+  },
+  "main": "index.js"
+}
